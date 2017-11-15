@@ -1,5 +1,98 @@
+
+/***********************
+    GENERAL STYLE
+***********************/
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #FFDEAD;
+}
+
+header {
+  text-align: center;
+  margin: 10px;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px;
+  padding: 60px;
+}
+
+h3 {
+  color: #60b0f4;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+
+
+/***********************
+    WELCOME PAGE
+***********************/
+
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+/***********************
+    GRID LAYOUT
+***********************/
+
+.Grid {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  width: 750px;
+}
+
+.Image {
+  border: 3px solid black;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+}
+
+
+
+/***********************
+    LIST LAYOUT
+***********************/
+
+.List {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  border-bottom: 2px solid black;
+  padding: 15px;
+}
+
+.image {
+  border: 2px solid black;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px 8px 5px 8px;
+  order: -1;
+}
+
+.title {
+}
+
+.author {
+  margin: 0 auto;
+}
+
+.author::before {
+  content: 'submitted by: ';
 }
